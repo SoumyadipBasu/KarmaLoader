@@ -155,10 +155,9 @@ describe("Test of toMatch ",function(){
 describe("Test of tobeclseto ",function(){
 it("The 'toBeCloseTo' matcher is for precision math comparison", function() {
     var pi = 3.1465926,
-      e = 3.142;
+      e = 3.1465;
 
-    expect(pi).toBeCloseTo(e, 3);
-    expect(pi).toBeCloseTo(e, 0);
+    expect(pi).toBeCloseTo(e);
   });
 });
 
